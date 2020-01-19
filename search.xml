@@ -1,49 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>小米手机重新上锁教程</title>
-      <link href="/posts/813489fd/"/>
-      <url>/posts/813489fd/</url>
-      
-        <content type="html"><![CDATA[<h2 id="概述："><a href="#概述：" class="headerlink" title="概述："></a>概述：</h2><p>这次主要是关于小米手机重新上锁的教程。</p><a id="more"></a><p>嗨，大家好，关于手机刷机教程我已经推送了好几期了，由于我只有小米手机，其它机型操作可能有点不同，但是大的操作都是没有问题的，任何一部手机刷机都要解锁，刷入第三方Rec，清理，刷入Rom这么关键的几步，小米机型完全可以按照我的教程一步一步来。有的朋友问能不能出华为或者其它手机的教程，实在是没有办法实现，因为没有手机，有手机的话完全是可以搞搞的。</p><p>关于刷机还有很多的知识，比如获取Root，刷入Google框架，成功安装Google相机等，这都需要后面一步步实现，<strong>今天我就先推送一期给小米机型解BL锁后重新上锁的教程。</strong></p><p>小米手机解除BL锁后，按下电源键开机的时候会在屏幕正下方出现几秒的一把锁打开的图标，没有解锁的是没有这个图标的。</p><p>有的人不想刷机后就想回到最初的世界，仿佛坐时光机一样【滑稽】，想让自己的手机重新上锁，那么这期教程可以帮你。</p><p><strong>教程仅适用于小米机型的上锁，其它手机没有资源测试！！！</strong></p><h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><p><strong>1.</strong>去MIUI论坛下载自己机型的官方Rom，论坛网址我之前的教程中都推送了。</p><p><img src="/posts/813489fd/1.png" alt></p><p><strong>2.</strong>因为之前的教程已经推送了几期了，完全可以刷入一个官方Rom，我这里不再演示怎么刷入的官方Rom，前面教程都是精髓。附上刷入成功截图。</p><p><img src="/posts/813489fd/2.png" alt></p><p><strong>3.</strong>刷入官方Rom只是开始，这时候你的手机还是解锁状态的。点击【全部参数】。</p><p><img src="/posts/813489fd/3.png" alt></p><p><strong>4.</strong>一直点击【MIUI版本号】，直到出现【已处于开发者模式】。</p><p><img src="/posts/813489fd/4.png" alt></p><p><strong>5.</strong>打开【开发者选项】。</p><p><img src="/posts/813489fd/5.png" alt></p><p><strong>6.</strong>点击【设备解锁状态】。</p><p><img src="/posts/813489fd/6.png" alt></p><p><strong>7.</strong>可以看到设备还是处于解锁状态的。</p><p><img src="/posts/813489fd/7.png" alt></p><p><strong>8.</strong>我这里提供小米手机重新上锁的批处理程序，获取方式见文末。</p><p><strong>注意：只适用于小米机型。</strong></p><p><strong>再次注意：重新上锁也会清空手机数据，包括图片，文件夹，音乐，记得备份！！！</strong></p><p>以管理员身份运行BL上锁批处理程序。</p><p><img src="/posts/813489fd/8.png" alt></p><p><strong>9.</strong>上锁的时候你的手机要在fast boot模式，也就是只有个机器人模式下【滑稽】，而且先刷入官方的Rom才能上锁，要不然不会成功。注意fast boot模式下记得数据线连接电脑啊，有的人自己操作出现问题，可能会怪我的教程有错误啥的，这锅俺可不背。</p><p><img src="/posts/813489fd/9.png" alt></p><p><strong>10.</strong>写入成功后重启就行。</p><p><img src="/posts/813489fd/10.png" alt></p><p><strong>11.</strong>开机后就可以看到手机又重新上锁了。</p><p><img src="/posts/813489fd/11.png" alt></p><p><strong>OK！那我们这期关于小米手机重新上锁教程到此结束，小伙伴记得打卡支持管家小e哦！！！</strong></p><p><strong>教程制作不易，以上教程都是管家小e原创，切勿搬运，转载请注明来源，如果有错误请指正，谢谢！</strong></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>安卓手机跳过Google开机验证</title>
-      <link href="/posts/28189/"/>
-      <url>/posts/28189/</url>
-      
-        <content type="html"><![CDATA[<h2 id="概述："><a href="#概述：" class="headerlink" title="概述："></a>概述：</h2><p>本次教程是安卓原生、类原生ROM如何跳过Google开机验证。</p><a id="more"></a><p>嗨，大家好，之前给大家出了一些教程，这两天我想刷海外版的MIUI 11，所以刚好又可以出一点教程，因为之前手机里文件太多了，每次刷一次ROM数据备份挺麻烦的。所以就一直拖着。</p><p>这次给大家推送的是<strong>安卓原生系统或者类原生系统如何跳过Google开机验证。</strong>Google的开机设置向导对刷机党来说估计很熟悉了，刷好ROM（原生、类原生）后，开机重启，就会<strong>让你登陆Google账户才能让你进入桌面</strong>，这一点对国内的朋友来说是个难题，因为大家都知道想要登陆Google账号就要科学上网，如果进入桌面了，你还可以通过一些其它的手段科学上网，但是启动之后在只能连接WiFi或者手机数据的情况下，手机自身肯定是无法科学上网的（路由器配置了科学上网除外）。不通过这一步，你连桌面都进不去，更别说其它了。这就是所说的Google的开机验证。</p><p>那么今天就教大家怎么处理这个情况。有一点需要注意，我不提供科学上网方式，无论怎么弄，都是需要电脑端能科学上网的。</p><p>其实原理很简单，就是<strong>在电脑端科学上网，然后通过共享软件把它共享出去</strong>，当然这里的共享软件不是啥某数字的网络共享啥的这类软件哈，这类软件是没办法共享的。<strong>电脑端共享出去后在手机端连接电脑端共享的具有能科学上网的WiFi。就能科学上网从而登陆Google账号啦。</strong></p><h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><p><strong>1.</strong>首先我们需要安装一个电脑科学上网软件，很多人可能都听过，有些网吧都是安装了的，那就是SSTap。安装包我会放在公众号里，回复看关键词，特殊工具，请低调使用。但是我是不提供服务器节点的。SSTap体验还是非常好的，但是开发者好像不再维护了。</p><p><img src="/posts/28189/1.png" alt></p><p><strong>2.</strong>之后还要再安装一个WiFi共享软件，这个共享软件真的牛批，不得不说，Connetify Hostpot是付费软件，安装后试用吧。安装后重启。</p><p>运行后点击WIFI热点选项，创建热点，要共享的Internet，选择前面带TAP的，因为这个是SSTap的代理网络。热点名称和密码自己设置或者默认都可。点击启动热点。</p><p><img src="/posts/28189/2.png" alt></p><p><strong>3.</strong>当手机连接后会显示一些信息等等。非常牛皮。忘了，这软件我也会放在公众号里。</p><p><img src="/posts/28189/3.png" alt></p><p><strong>4.</strong>原生系统或者类原生系统开机就是类似这样，任务栏锁就是Google验证。点击开始。</p><p><img src="/posts/28189/4.png" alt></p><p><strong>5.</strong>进入网络选择，连接刚才共享的WiFi。</p><p><img src="/posts/28189/5.png" alt></p><p><strong>6.</strong>连接成功，此时手机就可以科学上网的。</p><p><img src="/posts/28189/6.png" alt></p><p><strong>7.</strong>现在就是在Google验证，进行检查更新。</p><p><img src="/posts/28189/7.png" alt></p><p><strong>8.</strong>这些都是Google的开机向导界面。但是前提都是要能科学上网。</p><p><img src="/posts/28189/8.png" alt></p><p><strong>9.</strong>登陆自己的Google账号。使用原生、类原生系统或者国际版本的一些ROM，Google账号基本都要登陆。</p><p><img src="/posts/28189/9.png" alt></p><p><strong>10.</strong>向导设置好后就可以进入桌面了。</p><p><img src="/posts/28189/10.png" alt></p><h3 id="常见问题处理方法："><a href="#常见问题处理方法：" class="headerlink" title="常见问题处理方法："></a>常见问题处理方法：</h3><p><strong>1.</strong>注意SSTap配置后要能在电脑上访问Google，自己打开YouTube或者Google试试，看能不能访问，如果配置后电脑都无法访问，那肯定是不能成功的。</p><p><strong>2.</strong>注意配置Connetify Hotspot的时候选择【TAP-Windows Adapter V9】。</p><p><strong>3.</strong>保证电脑网络的稳定，不要看视频等等造成网络不好。</p><p><strong>OK！那本期教程就到此为止，喜欢的话记得打卡支持支持管家小e哦！！！</strong></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>小米手机重新上锁教程</title>
+    <url>/posts/813489fd/</url>
+    <content><![CDATA[<h2 id="概述："><a href="#概述：" class="headerlink" title="概述："></a>概述：</h2><p>这次主要是关于小米手机重新上锁的教程。</p>
+<a id="more"></a>
+
+<p>嗨，大家好，关于手机刷机教程我已经推送了好几期了，由于我只有小米手机，其它机型操作可能有点不同，但是大的操作都是没有问题的，任何一部手机刷机都要解锁，刷入第三方Rec，清理，刷入Rom这么关键的几步，小米机型完全可以按照我的教程一步一步来。有的朋友问能不能出华为或者其它手机的教程，实在是没有办法实现，因为没有手机，有手机的话完全是可以搞搞的。</p>
+<p>关于刷机还有很多的知识，比如获取Root，刷入Google框架，成功安装Google相机等，这都需要后面一步步实现，<strong>今天我就先推送一期给小米机型解BL锁后重新上锁的教程。</strong></p>
+<p>小米手机解除BL锁后，按下电源键开机的时候会在屏幕正下方出现几秒的一把锁打开的图标，没有解锁的是没有这个图标的。</p>
+<p>有的人不想刷机后就想回到最初的世界，仿佛坐时光机一样【滑稽】，想让自己的手机重新上锁，那么这期教程可以帮你。</p>
+<p><strong>教程仅适用于小米机型的上锁，其它手机没有资源测试！！！</strong></p>
+<h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><p><strong>1.</strong>去MIUI论坛下载自己机型的官方Rom，论坛网址我之前的教程中都推送了。</p>
+<p><img src="/posts/813489fd/1.png" alt></p>
+<p><strong>2.</strong>因为之前的教程已经推送了几期了，完全可以刷入一个官方Rom，我这里不再演示怎么刷入的官方Rom，前面教程都是精髓。附上刷入成功截图。</p>
+<p><img src="/posts/813489fd/2.png" alt></p>
+<p><strong>3.</strong>刷入官方Rom只是开始，这时候你的手机还是解锁状态的。点击【全部参数】。</p>
+<p><img src="/posts/813489fd/3.png" alt></p>
+<p><strong>4.</strong>一直点击【MIUI版本号】，直到出现【已处于开发者模式】。</p>
+<p><img src="/posts/813489fd/4.png" alt></p>
+<p><strong>5.</strong>打开【开发者选项】。</p>
+<p><img src="/posts/813489fd/5.png" alt></p>
+<p><strong>6.</strong>点击【设备解锁状态】。</p>
+<p><img src="/posts/813489fd/6.png" alt></p>
+<p><strong>7.</strong>可以看到设备还是处于解锁状态的。</p>
+<p><img src="/posts/813489fd/7.png" alt></p>
+<p><strong>8.</strong>我这里提供小米手机重新上锁的批处理程序，获取方式见文末。</p>
+<p><strong>注意：只适用于小米机型。</strong></p>
+<p><strong>再次注意：重新上锁也会清空手机数据，包括图片，文件夹，音乐，记得备份！！！</strong></p>
+<p>以管理员身份运行BL上锁批处理程序。</p>
+<p><img src="/posts/813489fd/8.png" alt></p>
+<p><strong>9.</strong>上锁的时候你的手机要在fast boot模式，也就是只有个机器人模式下【滑稽】，而且先刷入官方的Rom才能上锁，要不然不会成功。注意fast boot模式下记得数据线连接电脑啊，有的人自己操作出现问题，可能会怪我的教程有错误啥的，这锅俺可不背。</p>
+<p><img src="/posts/813489fd/9.png" alt></p>
+<p><strong>10.</strong>写入成功后重启就行。</p>
+<p><img src="/posts/813489fd/10.png" alt></p>
+<p><strong>11.</strong>开机后就可以看到手机又重新上锁了。</p>
+<p><img src="/posts/813489fd/11.png" alt></p>
+<p><strong>OK！那我们这期关于小米手机重新上锁教程到此结束，小伙伴记得打卡支持管家小e哦！！！</strong></p>
+<p><strong>教程制作不易，以上教程都是管家小e原创，切勿搬运，转载请注明来源，如果有错误请指正，谢谢！</strong></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>安卓手机跳过Google开机验证</title>
+    <url>/posts/28189/</url>
+    <content><![CDATA[<h2 id="概述："><a href="#概述：" class="headerlink" title="概述："></a>概述：</h2><p>本次教程是安卓原生、类原生ROM如何跳过Google开机验证。</p>
+<a id="more"></a>
+
+<p>嗨，大家好，之前给大家出了一些教程，这两天我想刷海外版的MIUI 11，所以刚好又可以出一点教程，因为之前手机里文件太多了，每次刷一次ROM数据备份挺麻烦的。所以就一直拖着。</p>
+<p>这次给大家推送的是<strong>安卓原生系统或者类原生系统如何跳过Google开机验证。</strong>Google的开机设置向导对刷机党来说估计很熟悉了，刷好ROM（原生、类原生）后，开机重启，就会<strong>让你登陆Google账户才能让你进入桌面</strong>，这一点对国内的朋友来说是个难题，因为大家都知道想要登陆Google账号就要科学上网，如果进入桌面了，你还可以通过一些其它的手段科学上网，但是启动之后在只能连接WiFi或者手机数据的情况下，手机自身肯定是无法科学上网的（路由器配置了科学上网除外）。不通过这一步，你连桌面都进不去，更别说其它了。这就是所说的Google的开机验证。</p>
+<p>那么今天就教大家怎么处理这个情况。有一点需要注意，我不提供科学上网方式，无论怎么弄，都是需要电脑端能科学上网的。</p>
+<p>其实原理很简单，就是<strong>在电脑端科学上网，然后通过共享软件把它共享出去</strong>，当然这里的共享软件不是啥某数字的网络共享啥的这类软件哈，这类软件是没办法共享的。<strong>电脑端共享出去后在手机端连接电脑端共享的具有能科学上网的WiFi。就能科学上网从而登陆Google账号啦。</strong></p>
+<h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><p><strong>1.</strong>首先我们需要安装一个电脑科学上网软件，很多人可能都听过，有些网吧都是安装了的，那就是SSTap。安装包我会放在公众号里，回复看关键词，特殊工具，请低调使用。但是我是不提供服务器节点的。SSTap体验还是非常好的，但是开发者好像不再维护了。</p>
+<p><img src="/posts/28189/1.png" alt></p>
+<p><strong>2.</strong>之后还要再安装一个WiFi共享软件，这个共享软件真的牛批，不得不说，Connetify Hostpot是付费软件，安装后试用吧。安装后重启。</p>
+<p>运行后点击WIFI热点选项，创建热点，要共享的Internet，选择前面带TAP的，因为这个是SSTap的代理网络。热点名称和密码自己设置或者默认都可。点击启动热点。</p>
+<p><img src="/posts/28189/2.png" alt></p>
+<p><strong>3.</strong>当手机连接后会显示一些信息等等。非常牛皮。忘了，这软件我也会放在公众号里。</p>
+<p><img src="/posts/28189/3.png" alt></p>
+<p><strong>4.</strong>原生系统或者类原生系统开机就是类似这样，任务栏锁就是Google验证。点击开始。</p>
+<p><img src="/posts/28189/4.png" alt></p>
+<p><strong>5.</strong>进入网络选择，连接刚才共享的WiFi。</p>
+<p><img src="/posts/28189/5.png" alt></p>
+<p><strong>6.</strong>连接成功，此时手机就可以科学上网的。</p>
+<p><img src="/posts/28189/6.png" alt></p>
+<p><strong>7.</strong>现在就是在Google验证，进行检查更新。</p>
+<p><img src="/posts/28189/7.png" alt></p>
+<p><strong>8.</strong>这些都是Google的开机向导界面。但是前提都是要能科学上网。</p>
+<p><img src="/posts/28189/8.png" alt></p>
+<p><strong>9.</strong>登陆自己的Google账号。使用原生、类原生系统或者国际版本的一些ROM，Google账号基本都要登陆。</p>
+<p><img src="/posts/28189/9.png" alt></p>
+<p><strong>10.</strong>向导设置好后就可以进入桌面了。</p>
+<p><img src="/posts/28189/10.png" alt></p>
+<h3 id="常见问题处理方法："><a href="#常见问题处理方法：" class="headerlink" title="常见问题处理方法："></a>常见问题处理方法：</h3><p><strong>1.</strong>注意SSTap配置后要能在电脑上访问Google，自己打开YouTube或者Google试试，看能不能访问，如果配置后电脑都无法访问，那肯定是不能成功的。</p>
+<p><strong>2.</strong>注意配置Connetify Hotspot的时候选择【TAP-Windows Adapter V9】。</p>
+<p><strong>3.</strong>保证电脑网络的稳定，不要看视频等等造成网络不好。</p>
+<p><strong>OK！那本期教程就到此为止，喜欢的话记得打卡支持支持管家小e哦！！！</strong></p>
+]]></content>
       <categories>
-          
-          <category> 手机刷机 </category>
-          
+        <category>手机刷机</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Google验证 </tag>
-            
-            <tag> 安卓 </tag>
-            
-            <tag> 手机刷机 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Google验证</tag>
+        <tag>安卓</tag>
+        <tag>手机刷机</tag>
+      </tags>
+  </entry>
 </search>
