@@ -1903,7 +1903,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0ad763;
+  background: #ffc434;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3226,5 +3226,21 @@ header.post-header {
   display: none;
 }
 body {
-  background: url("https://i.loli.net/2020/01/18/tOeRzcGu3HwmpLJ.png");
+  background: url("https://i.loli.net/2020/01/19/KzyIq1OADFnZ5P2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
 }
