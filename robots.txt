@@ -10,3 +10,4 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 Sitemap: https://sushan102.github.io/sitemap.xml
+Sitemap: https://sushan102.github.io/baidusitemap.xml
