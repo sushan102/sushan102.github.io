@@ -25,6 +25,10 @@
 
 
 
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
 
 
 
@@ -142,12 +146,12 @@
 
 
 
-  <meta name="description" content="概述：本次教程是安卓原生、类原生ROM如何跳过Google开机验证。">
+  <meta name="description" content="¶概述： 本次教程是安卓原生、类原生ROM如何跳过Google开机验证。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="安卓手机跳过Google开机验证">
 <meta property="og:url" content="https://sushan102.github.io/posts/28189/index.html">
 <meta property="og:site_name" content="管家小e">
-<meta property="og:description" content="概述：本次教程是安卓原生、类原生ROM如何跳过Google开机验证。">
+<meta property="og:description" content="¶概述： 本次教程是安卓原生、类原生ROM如何跳过Google开机验证。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://sushan102.github.io/posts/28189/1.png">
 <meta property="og:image" content="https://sushan102.github.io/posts/28189/2.png">
@@ -496,13 +500,25 @@
 
           
           
+             <span id="/posts/28189/" class="leancloud_visitors" data-flag-title="安卓手机跳过Google开机验证">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                  <span class="post-meta-item-text">热度 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+                 <span>℃</span>
+             </span>
+          
 
           
             <span class="post-meta-divider">|</span>
             <span class="post-meta-item-icon"
             >
             <i class="fa fa-eye"></i>
-             阅读次数： 
+             热度： 
             <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
             </span>
           
@@ -518,7 +534,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.4k</span>
+                <span title="本文字数">2.2k</span>
               
 
               
@@ -552,37 +568,39 @@
       
 
       
-        <h2 id="概述："><a href="#概述：" class="headerlink" title="概述："></a>概述：</h2><p>本次教程是安卓原生、类原生ROM如何跳过Google开机验证。</p>
+        <h2 id="概述："><a class="header-anchor" href="#概述：">¶</a>概述：</h2>
+<p>本次教程是安卓原生、类原生ROM如何跳过Google开机验证。</p>
 <a id="more"></a>
-
 <p>嗨，大家好，之前给大家出了一些教程，这两天我想刷海外版的MIUI 11，所以刚好又可以出一点教程，因为之前手机里文件太多了，每次刷一次ROM数据备份挺麻烦的。所以就一直拖着。</p>
-<p>这次给大家推送的是<strong>安卓原生系统或者类原生系统如何跳过Google开机验证。</strong>Google的开机设置向导对刷机党来说估计很熟悉了，刷好ROM（原生、类原生）后，开机重启，就会<strong>让你登陆Google账户才能让你进入桌面</strong>，这一点对国内的朋友来说是个难题，因为大家都知道想要登陆Google账号就要科学上网，如果进入桌面了，你还可以通过一些其它的手段科学上网，但是启动之后在只能连接WiFi或者手机数据的情况下，手机自身肯定是无法科学上网的（路由器配置了科学上网除外）。不通过这一步，你连桌面都进不去，更别说其它了。这就是所说的Google的开机验证。</p>
+<p>这次给大家推送的是<strong>安卓原生系统或者类原生系统如何跳过Google开机验证。<strong>Google的开机设置向导对刷机党来说估计很熟悉了，刷好ROM（原生、类原生）后，开机重启，就会</strong>让你登陆Google账户才能让你进入桌面</strong>，这一点对国内的朋友来说是个难题，因为大家都知道想要登陆Google账号就要科学上网，如果进入桌面了，你还可以通过一些其它的手段科学上网，但是启动之后在只能连接WiFi或者手机数据的情况下，手机自身肯定是无法科学上网的（路由器配置了科学上网除外）。不通过这一步，你连桌面都进不去，更别说其它了。这就是所说的Google的开机验证。</p>
 <p>那么今天就教大家怎么处理这个情况。有一点需要注意，我不提供科学上网方式，无论怎么弄，都是需要电脑端能科学上网的。</p>
 <p>其实原理很简单，就是<strong>在电脑端科学上网，然后通过共享软件把它共享出去</strong>，当然这里的共享软件不是啥某数字的网络共享啥的这类软件哈，这类软件是没办法共享的。<strong>电脑端共享出去后在手机端连接电脑端共享的具有能科学上网的WiFi。就能科学上网从而登陆Google账号啦。</strong></p>
-<h2 id="教程："><a href="#教程：" class="headerlink" title="教程："></a>教程：</h2><p><strong>1.</strong>首先我们需要安装一个电脑科学上网软件，很多人可能都听过，有些网吧都是安装了的，那就是SSTap。安装包我会放在公众号里，回复看关键词，特殊工具，请低调使用。但是我是不提供服务器节点的。SSTap体验还是非常好的，但是开发者好像不再维护了。</p>
+<h2 id="教程："><a class="header-anchor" href="#教程：">¶</a>教程：</h2>
+<p>**1.**首先我们需要安装一个电脑科学上网软件，很多人可能都听过，有些网吧都是安装了的，那就是SSTap。安装包我会放在公众号里，回复看关键词，特殊工具，请低调使用。但是我是不提供服务器节点的。SSTap体验还是非常好的，但是开发者好像不再维护了。</p>
 <p><img src="/posts/28189/1.png" alt></p>
-<p><strong>2.</strong>之后还要再安装一个WiFi共享软件，这个共享软件真的牛批，不得不说，Connetify Hostpot是付费软件，安装后试用吧。安装后重启。</p>
+<p>**2.**之后还要再安装一个WiFi共享软件，这个共享软件真的牛批，不得不说，Connetify Hostpot是付费软件，安装后试用吧。安装后重启。</p>
 <p>运行后点击WIFI热点选项，创建热点，要共享的Internet，选择前面带TAP的，因为这个是SSTap的代理网络。热点名称和密码自己设置或者默认都可。点击启动热点。</p>
 <p><img src="/posts/28189/2.png" alt></p>
-<p><strong>3.</strong>当手机连接后会显示一些信息等等。非常牛皮。忘了，这软件我也会放在公众号里。</p>
+<p>**3.**当手机连接后会显示一些信息等等。非常牛皮。忘了，这软件我也会放在公众号里。</p>
 <p><img src="/posts/28189/3.png" alt></p>
-<p><strong>4.</strong>原生系统或者类原生系统开机就是类似这样，任务栏锁就是Google验证。点击开始。</p>
+<p>**4.**原生系统或者类原生系统开机就是类似这样，任务栏锁就是Google验证。点击开始。</p>
 <p><img src="/posts/28189/4.png" alt></p>
-<p><strong>5.</strong>进入网络选择，连接刚才共享的WiFi。</p>
+<p>**5.**进入网络选择，连接刚才共享的WiFi。</p>
 <p><img src="/posts/28189/5.png" alt></p>
-<p><strong>6.</strong>连接成功，此时手机就可以科学上网的。</p>
+<p>**6.**连接成功，此时手机就可以科学上网的。</p>
 <p><img src="/posts/28189/6.png" alt></p>
-<p><strong>7.</strong>现在就是在Google验证，进行检查更新。</p>
+<p>**7.**现在就是在Google验证，进行检查更新。</p>
 <p><img src="/posts/28189/7.png" alt></p>
-<p><strong>8.</strong>这些都是Google的开机向导界面。但是前提都是要能科学上网。</p>
+<p>**8.**这些都是Google的开机向导界面。但是前提都是要能科学上网。</p>
 <p><img src="/posts/28189/8.png" alt></p>
-<p><strong>9.</strong>登陆自己的Google账号。使用原生、类原生系统或者国际版本的一些ROM，Google账号基本都要登陆。</p>
+<p>**9.**登陆自己的Google账号。使用原生、类原生系统或者国际版本的一些ROM，Google账号基本都要登陆。</p>
 <p><img src="/posts/28189/9.png" alt></p>
-<p><strong>10.</strong>向导设置好后就可以进入桌面了。</p>
+<p>**10.**向导设置好后就可以进入桌面了。</p>
 <p><img src="/posts/28189/10.png" alt></p>
-<h3 id="常见问题处理方法："><a href="#常见问题处理方法：" class="headerlink" title="常见问题处理方法："></a>常见问题处理方法：</h3><p><strong>1.</strong>注意SSTap配置后要能在电脑上访问Google，自己打开YouTube或者Google试试，看能不能访问，如果配置后电脑都无法访问，那肯定是不能成功的。</p>
-<p><strong>2.</strong>注意配置Connetify Hotspot的时候选择【TAP-Windows Adapter V9】。</p>
-<p><strong>3.</strong>保证电脑网络的稳定，不要看视频等等造成网络不好。</p>
+<h3 id="常见问题处理方法："><a class="header-anchor" href="#常见问题处理方法：">¶</a>常见问题处理方法：</h3>
+<p>**1.**注意SSTap配置后要能在电脑上访问Google，自己打开YouTube或者Google试试，看能不能访问，如果配置后电脑都无法访问，那肯定是不能成功的。</p>
+<p>**2.**注意配置Connetify Hotspot的时候选择【TAP-Windows Adapter V9】。</p>
+<p>**3.**保证电脑网络的稳定，不要看视频等等造成网络不好。</p>
 <p><strong>OK！那本期教程就到此为止，喜欢的话记得打卡支持支持管家小e哦！！！</strong></p>
 
       
@@ -670,6 +688,26 @@
       
 
       
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
       
       
 
@@ -762,7 +800,7 @@
                 
                   <a href="/archives/%20%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -857,7 +895,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概述："><span class="nav-number">1.</span> <span class="nav-text">概述：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#教程："><span class="nav-number">2.</span> <span class="nav-text">教程：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常见问题处理方法："><span class="nav-number">2.1.</span> <span class="nav-text">常见问题处理方法：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概述："><span class="nav-number">1.</span> <span class="nav-text">¶概述：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#教程："><span class="nav-number">2.</span> <span class="nav-text">¶教程：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常见问题处理方法："><span class="nav-number">2.1.</span> <span class="nav-text">¶常见问题处理方法：</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -1401,6 +1439,72 @@
   
 
   
+  <script>
+    
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
+        .done(function ({ results }) {
+          if (results.length > 0) {
+            var counter = results[0];
+            
+            Counter('put', `/classes/Counter/${counter.objectId}`, JSON.stringify({ time: { "__op":"Increment", "amount":1 } }))
+            
+            .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.time + 1);
+            })
+            
+            .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+            })
+          } else {
+            
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1}))
+                .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function () {
+                  console.log('Failed to create');
+                });
+            
+          }
+        })
+      .fail(function ({ responseJSON }) {
+        console.log('LeanCloud Counter Error:' + responseJSON.code + " " + responseJSON.error);
+      });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "di055Qm0Ru5pUj4e9X23iARl-gzGzoHsz")
+        .done(function ({ api_server }) {
+          var Counter = function (method, url, data) {
+            return $.ajax({
+              method: method,
+              url: `https://${api_server}/1.1${url}`,
+              headers: {
+                'X-LC-Id': "di055Qm0Ru5pUj4e9X23iARl-gzGzoHsz",
+                'X-LC-Key': "KrepBadejk0I773mD5YDo4Dn",
+                'Content-Type': 'application/json',
+              },
+              data: data,
+            });
+          };
+          
+          addCount(Counter);
+          
+        })
+    });
+  </script>
+
+
+
+  
 
   
 <script>
@@ -1424,6 +1528,27 @@
   
 
   
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "box";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "bottomCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+  </script>
+
   
 
   
@@ -1449,6 +1574,7 @@
 
 
  
+
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"></script>
 <script>
