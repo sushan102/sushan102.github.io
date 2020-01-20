@@ -1335,7 +1335,7 @@
     new Valine({
         el: '#comments' ,
         verify: true,
-        notify: false,
+        notify: true,
         appId: 'di055Qm0Ru5pUj4e9X23iARl-gzGzoHsz',
         appKey: 'KrepBadejk0I773mD5YDo4Dn',
         placeholder: '小e期待你的评论哦！',
@@ -1836,6 +1836,25 @@
   document.querySelector(".footer-inner").insertBefore(div, copyright.nextSibling);
   timer();
   setInterval("timer()",1000)
+</script>
+
+
+ 
+
+<script>
+  var OriginTitile = document.title;
+  var titleTime;
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+      document.title = "(つェ⊂)我藏好了哦~" + OriginTitile;
+      clearTimeout(titleTime);
+    } else {
+      document.title = "(*´∇｀*) 被你发现啦~" + OriginTitile;
+      titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+      }, 2000);
+    }
+  });
 </script>
 
 </body>
