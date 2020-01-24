@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>使用GitHub+Hexo搭建个人博客教程—第一篇</title>
+      <link href="/posts/4016344974/"/>
+      <url>/posts/4016344974/</url>
+      
+        <content type="html"><![CDATA[<!-- build time:Fri Jan 24 2020 21:37:49 GMT+0800 (GMT+08:00) --><p>嗨，大家好，你们的万金油管家小e又来了，这次就教大家一些<strong>利用GitHub和Hexo本地服务器搭建个人博客的教程</strong>，可能教程要好几期。那么这期就先从最最基础的<strong>GitHub的注册，以及本地环境的搭建，GitHub仓库的建立</strong>等等开始。</p><a id="more"></a><p>近年来很多人都喜欢用GitHub和Hexo来搭建个人博客网站。因为搭建本地服务器的个人博客是免费的，你可以直接用GitHub的域名，不需要买域名，也不需要买主机。而且非常稳定。</p><p>搭建出一个属于自己的个人博客网站会让你心里觉得nice，而且也是对你能力的一个提升，很多学生兴趣来了学前端，跟着视频教程还没走完就放弃了，这种学习效果不是很好，最好的就是从实战中遇到问题不断学习。从而提高自己。通过搭建自己的GitHub个人博客，后期你可以运用起来你学过的前端知识，不断优化自己的博客。我想这是非常不错的。</p><p>当然，基于GitHub和Hexo搭建的本地服务器的个人博客也是有缺点的，就是灵活性差，访问速度慢一点。但是作为新手搞绝对是很不错的。</p><p>OK！知道很多人可能没有基础，我会在教程中详细的介绍。</p><p>利用GitHub和Hexo搭建静态个人博客，这里的静态博客并不是字面意思，不是啥都不动的这个意思哈。</p><p><strong>静态网页</strong>简单来说就是设计者把页面的东西设计好了，只是发布上去，本地浏览器就能访问。而<strong>动态网页</strong>的内容都是依靠服务器来运行的。管理者发布文章的时候只需要进入后台发布就行，发布后想更改也非常容易。需要主机来存放网站的源码等数据。</p><p>OK！那静态博客和动态博客清楚了，我们废话不多说，直接开始教程。</p><h2 id="教程："><a class="header-anchor" href="#教程：">¶</a>教程：</h2><p>**1.**Hexo基于Node.js，搭建中还需要npm（Node.js自带）和git，因此我们需要首先搭建本地环境。安装Node.js和Git。</p><p>Node.js安装：</p><p><strong>Node.js官网：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a></strong></p><p>进入官网后下载Windows（x64）长期支持版。</p><p><img src="/posts/4016344974/1.png" alt></p><p>**2.**安装位置最好选择默认，我这里选择默认，其它选项默认。点击下一步。</p><p><img src="/posts/4016344974/2.png" alt></p><p>**3.**由于安装很简单，我不再赘述，附上截图。</p><p><img src="/posts/4016344974/3.png" alt></p><p>**4.**安装Git：</p><p><strong>Git官网下载网址：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></strong></p><p>选择自己的平台，我选择Windows。点击下载。</p><p><img src="/posts/4016344974/4.png" alt></p><p>**5.**选择自己的电脑对应的位数进行下载，我是64位电脑。</p><p><img src="/posts/4016344974/5.png" alt></p><p>**6.**安装也非常简单，选项和安装位置默认，点击下一步。</p><p><img src="/posts/4016344974/6.png" alt></p><p>**7.**安装简单，不再赘述，附上截图。</p><p><img src="/posts/4016344974/7.png" alt></p><p>**8.**下面验证Node.js和Git是否安装成功，也就是本地环境是否搭建成功。Win+R打开运行。输入cmd，进入命令提示符。</p><p><img src="/posts/4016344974/8.png" alt></p><p>**9.**依次输入：（注意输入法在英文状态下）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line">git --version</span><br></pre></td></tr></table></figure><p>如果出现对应的版本号，那么表示本地环境搭建成功。</p><p><img src="/posts/4016344974/9.png" alt></p><p><strong>10.GitHub官网：<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></strong></p><p>打开GitHub官网，点击注册。</p><p><img src="/posts/4016344974/10.png" alt></p><p>**11.**注册自己的用户名，绑定邮箱等等。</p><p><img src="/posts/4016344974/11.png" alt></p><p>**12.**选择免费的账户。</p><p><img src="/posts/4016344974/12.png" alt></p><p>**13.**这是GitHub对新手的一点调查吧算是，有兴趣的可以选选，没兴趣的话跳过。</p><p><img src="/posts/4016344974/13.png" alt></p><p>**14.**我这里直接点击跳过。</p><p><img src="/posts/4016344974/14.png" alt></p><p>**15.**之后GitHub会向你的注册邮箱发送验证，打开你的邮箱，进行验证，显示红框表示验证通过，先不用着急新建仓库哈。这一步就到这结束。</p><p><img src="/posts/4016344974/15.png" alt></p><p>**16.**接下来在桌面或者哪儿都可以，鼠标右键，点击【Git Bash Here】。</p><p><img src="/posts/4016344974/16.png" alt></p><p>**17.**依次输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;GitHub邮箱&quot;</span><br></pre></td></tr></table></figure><p><img src="/posts/4016344974/17.png" alt></p><p>**18.**输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;GitHub邮箱&quot;</span><br></pre></td></tr></table></figure><p>然后一路回车。创建SSH密匙。</p><p><img src="/posts/4016344974/18.png" alt></p><p>**19.**进入下面路径，如果不显示的记得选择显示隐藏的项目。</p><p><strong>路径：C：\用户\用户名\ .ssh</strong></p><p><img src="/posts/4016344974/19.png" alt></p><p>**20.**用记事本打开id_rsa.pub文件。复制文件中的内容。</p><p><img src="/posts/4016344974/20.png" alt></p><p>**21.**登陆GitHub，进入setting。</p><p><img src="/posts/4016344974/21.png" alt></p><p>**22.**选择左边SSH and GPG Keys选项。进行添加密匙。</p><p><img src="/posts/4016344974/22.png" alt></p><p>**23.**点击New SSH Key进行添加。</p><p><img src="/posts/4016344974/23.png" alt></p><p>**24.**title自己随便取，把刚才复制的密匙粘贴到Key中，点击Add SSH Key添加完成。</p><p><img src="/posts/4016344974/24.png" alt></p><p>**25.**打开Git Bash，输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>出现Are you sure……的时候输入yes回车。</p><p>最后显示You’ve successfully……的时候表示连接成功。</p><p><img src="/posts/4016344974/25.png" alt></p><p>**26.**点击右上角加号，点击New repository新建GitHub Pages仓库。</p><p><img src="/posts/4016344974/26.png" alt></p><p>**27.**在Repository name中输入：<a href="http://xn--eqr924avxo.github.io" target="_blank" rel="noopener">用户名.github.io</a></p><p>勾选“Initialize this repository with a README”</p><p>Description选填。</p><p>填好后点击Create repository。创建后默认启用HTTPS。</p><p><strong>博客的地址为:<a href="https://xn--eqr924avxo.github.io" target="_blank" rel="noopener">https://用户名.github.io</a></strong></p><p><img src="/posts/4016344974/27.png" alt></p><p>**28.**新建后的仓库如下，是不是很眼熟。</p><p><img src="/posts/4016344974/28.png" alt></p><p><strong>GitHub Pages是什么？</strong></p><p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。我把它理解为动态网站的主机。功能都很类似。</p><p><strong>Ok!本期关于GitHub的注册以及本地环境的搭建等等教程就到此为止。后续部分后几期更新。喜欢的话记得打卡支持支持管家小e哦！</strong></p><!-- rebuild by neat -->]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用GitHub+Hexo搭建个人静态博客教程—第七篇</title>
       <link href="/posts/1410804403/"/>
       <url>/posts/1410804403/</url>
